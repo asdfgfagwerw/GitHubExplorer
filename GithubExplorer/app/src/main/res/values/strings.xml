@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GitHub Explorer</string>
+    <string name="language_name">Language name</string>
+    <string name="fetch">Get repos</string>
+    <string name="enter_language_title">Enter language of your choice</string>
+    <string name="invalid_input_message">Please enter a valid language</string>
+    <string name="top_3_contributors">Top 3 contributors:</string>
+    <string name="three_newest_issues">3 newest issues :</string>
+</resources>
