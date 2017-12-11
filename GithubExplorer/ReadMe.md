@@ -2,20 +2,9 @@ GitHub Explorer
 
 This app allows you to search for repositories of a particular language on GitHub.
 
-Functional requirements:
+User can enter a programming language whose repos will be searched by popularity.
 
-1. User should be able to enter a programming language - Done
-
-2. App should request a list of popular GitHub repositories for this language via the GitHub API and present this list to the user - Done
-
-3. User should be able to tap on a repository to see repository data like name, description, 3 newest issues, and 3 top contributors - Done (No webviews are used)
-
-Non functional requirements:
-
-1. The app should be displayed equally well for phones of two different sizes (Tested on Samsung Galaxy S6, Nexus 5 and Note 4) - Looked fine
-
-2. Data should be fetched from the GitHub API - Done (no repo data is stored locally)
-
+Clicking on a repository will display repository data like name, description, 3 newest issues, and 3 top contributors 
 
 Application design:
 
@@ -55,5 +44,3 @@ Readability of code:
 I've seperated my packaged by feature (all the classes related to one feature are in the same package). This allows easier extraction and modularization of code.
 The visibility of fields and methods are kept to the lowest possible one.
 Many fields and methods are package-private as they are exposed to in the package, but need not be exposed to the whole app (by using public)
-
-I've used descriptive names for fields and methods and kept the methods small as much as possible.
